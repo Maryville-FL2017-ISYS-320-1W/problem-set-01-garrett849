@@ -1,14 +1,15 @@
 /*
   	ISYS 320
-  	Name(s):
-  	Date: 
+  	Name(s): Garrett Weissenborn
+  	Date:    11/26/2017
 */
 
 public class ScalableNumbersRight {
 
 	public static void main(String[] args) {
-		for( int line = 1; line <= 5; line++ ) {
-			for( int spacesIndex = 1; spacesIndex <= 5 - line; spacesIndex++ ) {
+		int rows = 8;
+		for( int line = 1; line <= rows; line++ ) {
+			for( int spacesIndex = 1; spacesIndex <= rows - line; spacesIndex++ ) {
 				System.out.print(" ");
 			}
 			for( int numbersIndex = 1; numbersIndex <= line; numbersIndex++ ) {
