@@ -9,22 +9,23 @@
 1. Fill out the table for the loop below
 
 | ITERATION 		 | VARIABLE NAME	 | VARIABLE NAME	 | VARIABLE NAME	 |
-| initialization	 | MAX			     | count			 |		number		 | 
-| 1					 |		5		     |			5	     |		26		     |
-| 2                  |      6            |          6        |      38           |
-| 3                  |      6            |          6        |      39           |
-| 10                 |      6            |          6        |      46           |
+| initialization	 |     MAX			 |     count	     |		number		 | 
+| 1				     |		4            |		 4           |		 7		     |
+| 2                  |      4            |       3           |      12           |
+| 3                  |      4            |       2           |      15           |
+| 4                  |      4            |       1           |      16           |
 
 */
 
 public class FollowTheLoop {
 
-	   public static final int MAX = 6;
+	   public static final int MAX = 4;
 	   public static void loopDeDoop() {
-	      int number = 10;
+	      int number = 0;
 	      for( int count = MAX; count >= 1; count-- ) {
 	         int product = count * 2 - 1;
 	         number = number + product;
+	         System.out.printf("%d\t%d\t%d\n",MAX,count,number);
 	      }
 	      System.out.println("The result is: " + number);
 	   }
