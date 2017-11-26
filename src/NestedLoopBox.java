@@ -5,8 +5,9 @@
 */
 
 /* 4. Your pseudocode algorithm here
-     Write a loop that will produce 6 stars in a line.
-     Write another loop that will produce the above loop 6 times on 6 separate lines below. 
+     Create a loop that will produce 6 lines.
+     Create a nestled loop to produce 6 stars. 
+     print *
      println
      End
 
